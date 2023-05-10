@@ -1,0 +1,7 @@
+Frequency , L001, 27.45600
+Plant     , L002, P
+ProdCode  , L003, T
+Version   , L004, D
+DateFormat, L005, ymd
+Parameter , L006, FA-21H 
+Format    , L007, FA21H.MKG

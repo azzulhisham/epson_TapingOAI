@@ -1,0 +1,1 @@
+byrtobmp abc.ifz /o:"h:\ifz" /f:jpg /h

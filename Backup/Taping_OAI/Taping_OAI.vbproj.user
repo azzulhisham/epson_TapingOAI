@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>G:\TapingOAI\ClickOnce\|G:\Taping_OAI\ClickOnce\|F:\Taping_OAI\ClickOnce\|g:\Taping_OAI\ClickOnce\|e:\az_Logics\AI\MyVBProject\VB2008_Project\PX\Taping_OAI\Taping_OAI\ClickOnce\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>http://etmymnet/dnld/az_Logics/PX_Taping_OAI/|http://etmymnet/dnld/az_Logics/PX_Taping_OAI/PX_Taping.html/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

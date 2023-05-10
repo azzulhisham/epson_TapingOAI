@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="2012.0328.001.1" name="Taping_OAI.exe" publicKeyToken="7705098cc021c141" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="az_.ico" asmv2:publisher="az_IOLogics" asmv2:product="Taping_OAI" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Taping_OAI" version="2012.328.1.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Taping_OAI.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="edtFTPnet.dll" size="159744">
+      <assemblyIdentity name="edtFTPnet" version="2.1.0.0" publicKeyToken="4B0C991F43097782" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>C7TMsaKTUKySd0yKZKZ/h1AeqcA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FTPclient.dll" size="22528">
+      <assemblyIdentity name="FTPclient" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ah1XgSFeD8EpeLcJ+AklrrNlklM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Taping_OAI.exe" size="2822656">
+      <assemblyIdentity name="Taping_OAI" version="2012.328.1.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>NcX1XNZFcKmgENw4KZoRbREWfzk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="az_.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/UKvnZYNFACbwz8A6d5idWrQb6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="az2011.jpg" size="36344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jBG2AjXurGMhoviCh6+zaACXHsc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Taping_OAI.exe.config" size="1346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YhZQ+fSY4HsNvgDSvkCB4S6O60o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZTAN-PC\EPMMN" issuerKeyHash="6453b9b2496721245feeb80caa4e58f35fbc2d40" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>x/Q6c4sK6Hmatkey7YoX012rhk0=</DigestValue></Reference></SignedInfo><SignatureValue>PpIRASWCDkUWdY2qOtz36ecNGQTG+mpeQSJjgkl7tUYvsccRVtNVEVluM2EQ9e7pSw2gJROSlYyyKdBbjJBbf1vPxCeqxY3k72yfv/7IXuLqc66z5kbXz98u9R+w/VAEpepkoAVSM9/TNyIV+1ciME3FZp/J2dTzU2GCLpCJzs8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l1SeMDjr2U3SQkHSgtIjrZK8vV3xWr1C9TDtR7QMbDheze0hduQttkiQCmEq99nenAzrAHGVHV0eo9hPCnmzkpOByMnIgX7gAXnhk1bMU00PJKHr73wTmN0sbkcLbFpwIOuRW7OLQsxC1xSJm+hKyhBXGoyk2DoQQidE2VE9zBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4d86ab5dd3178aedb247b69a79e80a8b733af4c7" Description="" Url=""><as:assemblyIdentity version="2012.0328.001.1" name="Taping_OAI.exe" publicKeyToken="7705098cc021c141" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZTAN-PC\EPMMN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pQsSklTcHLadForlZYcUSvVNLz4=</DigestValue></Reference></SignedInfo><SignatureValue>lYLehuf6Hr3KswQiIGEHb9BlL4Qf0RXtYOFLxqy8NRLfoNtVxxlhDl5bdrASX++PDsS3c8lKsTOVBQGDQ01TSscHfxO7mWG9Ilu3kcxaB7JN7W+HqfutHJ8iVsbxD9djIJ7EAFMCV5CTfMacExXdEKvB2QZqToz8wSPYXR7muqU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l1SeMDjr2U3SQkHSgtIjrZK8vV3xWr1C9TDtR7QMbDheze0hduQttkiQCmEq99nenAzrAHGVHV0eo9hPCnmzkpOByMnIgX7gAXnhk1bMU00PJKHr73wTmN0sbkcLbFpwIOuRW7OLQsxC1xSJm+hKyhBXGoyk2DoQQidE2VE9zBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQW83ar1VsQaxGM0WcDORLUjANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAWgBUAEEATgAtAFAAQwBcAEUAUABNAE0ATjAeFw0xMjA0MDQwMzU4MjRaFw0xMzA0MDQwOTU4MjRaMCUxIzAhBgNVBAMeGgBaAFQAQQBOAC0AUABDAFwARQBQAE0ATQBOMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXVJ4wOOvZTdJCQdKC0iOtkry9XfFavUL1MO1HtAxsOF7N7SF25C22SJAKYSr32d6cDOsAcZUdXR6j2E8KebOSk4HIyciBfuABeeGTVsxTTQ8koevvfBOY3SxuRwtsWnAg65Fbs4tCzELXFImb6ErKEFcajKTYOhBCJ0TZUT3MFQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJBRIBpckEf4YShrYTzAjAhmkXk8GvDitLriTnx56mTxs/8NWr+BGuOjnWZSGz97d1eNeotVlZ4bRmGG6KFWO8yUHmczQIMaSJ+16fqZhx+cBtjMuf3YiIvhB9btwpD2XgYKQnx62rzp8W5vz2W8HjSHLfTyW42iBQiUg6jC6toi</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
