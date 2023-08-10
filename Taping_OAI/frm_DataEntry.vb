@@ -55,7 +55,7 @@
     Private Sub frm_DataEntry_Shown(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Shown
 
         With Tp_OAI
-            If My.Computer.Network.Ping("172.16.59.2") Then
+            If My.Computer.Network.Ping("20.10.30.2") Then
                 If Not My.Computer.FileSystem.DirectoryExists(.RedoLotTmpRecLoc) Then
                     My.Computer.FileSystem.CreateDirectory(.RedoLotTmpRecLoc)
                 End If
@@ -134,7 +134,7 @@
 
     Private Function ReadRedoData(ByVal FileName As String) As Integer
 
-        If My.Computer.Network.Ping("172.16.59.2") Then
+        If My.Computer.Network.Ping("20.10.30.2") Then
             Dim RedoRec As String = My.Computer.FileSystem.ReadAllText(FileName)
             Dim RedoItem() As String = RedoRec.Split(vbLf)
 

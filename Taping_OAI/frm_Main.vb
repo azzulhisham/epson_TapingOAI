@@ -4628,7 +4628,7 @@ Public Class frm_Main
                             If Not .Mode = SysAppMode.app_AutoRun And Not .Mode = SysAppMode.app_sysError Then
                                 If My.Computer.Network.IsAvailable Then
                                     Try
-                                        If My.Computer.Network.Ping("172.16.59.254") Then
+                                        If My.Computer.Network.Ping("20.10.30.2") Then
                                             If System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed And System.Deployment.Application.ApplicationDeployment.CurrentDeployment.CheckForUpdate Then
                                                 With Me
                                                     .tmr_IOMonitor.Enabled = False

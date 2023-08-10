@@ -239,7 +239,7 @@ Module mdl_Database
     Public Function GetExternalSourceData(ByVal vLotNo As String) As List(Of TapingLotFormData)
 
         Dim result As List(Of TapingLotFormData) = New List(Of TapingLotFormData)
-        Dim EndPoint As String = String.Format("http://172.16.59.252/epson/Api/GetTapingLotFormDataPCS?vLotNo={0}", vLotNo)
+        Dim EndPoint As String = String.Format("http://20.10.30.2/epson/Api/GetTapingLotFormDataPCS?vLotNo={0}", vLotNo)
 
         Dim request As HttpWebRequest = HttpWebRequest.Create(EndPoint)
         Dim response As HttpWebResponse

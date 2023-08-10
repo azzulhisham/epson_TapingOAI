@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\zulhisham\Desktop\epm\TapingOAI\ClickOnce\|D:\Toshiba\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\|d:\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\|g:\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\|H:\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\</PublishUrlHistory>
-    <InstallUrlHistory>http://172.16.59.254/dnld/az_logics/px_taping_oai/</InstallUrlHistory>
+    <PublishUrlHistory>C:\Users\User\source\repos\epson\TapingOAI\ClickOnce\|C:\Users\zulhisham\Desktop\epm\TapingOAI\ClickOnce\|D:\Toshiba\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\|d:\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\|g:\az_Logics\AI\VB\VB2008_Project\PX\TapingOAI\ClickOnce\</PublishUrlHistory>
+    <InstallUrlHistory>http://20.10.30.2/dnld/az_logics/px_taping_oai/|http://172.16.59.254/dnld/az_logics/px_taping_oai/</InstallUrlHistory>
     <SupportUrlHistory>
     </SupportUrlHistory>
-    <UpdateUrlHistory>http://172.16.59.254/dnld/az_Logics/PX_Taping_OAI/|http://etmymnet/dnld/az_Logics/PX_Taping_OAI/|http://etmymnet/dnld/az_Logics/PX_Taping_OAI/PX_Taping.html/</UpdateUrlHistory>
-    <BootstrapperUrlHistory>http://172.16.59.254/dnld/az_logics/px_taping_oai/</BootstrapperUrlHistory>
+    <UpdateUrlHistory>http://20.10.30.2/dnld/az_Logics/PX_Taping_OAI/|http://172.16.59.254/dnld/az_Logics/PX_Taping_OAI/|http://etmymnet/dnld/az_Logics/PX_Taping_OAI/|http://etmymnet/dnld/az_Logics/PX_Taping_OAI/PX_Taping.html/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>http://20.10.30.2/dnld/az_logics/px_taping_oai/|http://172.16.59.254/dnld/az_logics/px_taping_oai/</BootstrapperUrlHistory>
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ErrorReportUrlHistory />

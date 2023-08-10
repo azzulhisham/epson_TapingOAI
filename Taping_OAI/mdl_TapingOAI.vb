@@ -24,7 +24,7 @@ Imports System.ComponentModel
 
 Module mdl_TapingOAI
 
-    Public Const sqlServer As String = "172.16.59.254\SQLEXPRESS"
+    Public Const sqlServer As String = "20.10.30.2\SQLEXPRESS"
     Public Const sqlName As String = "Marking"
     Public Const sqluid As String = "VB-SQL"
     Public Const sqlpwd As String = "Anyn0m0us"
